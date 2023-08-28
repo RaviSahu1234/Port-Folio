@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .portfolio {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(52, 21, 21);
+    background-position: center;
+  }
+  .logo img {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 25%;
+    border-radius: 90%;
+    border: 1px white;
+  }
+
+  .navbarright {
+    justify-content: flex-end;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aquamarine;
+    font-style: segoe, script;
+    font-family: segoe script;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  nav ul a:hover {
+    color: olive;
+    text-decoration: none;
+    border-bottom: 2px solid olive;
+    border-radius: 70px;
+    margin-bottom: -20px;
+  }
+
+  #navbartext ul a {
+    display: flex;
+    float: right;
+    color: yellow;
+  }
+
+  .navbar-toggler-icon {
+    border: 1px white;
+    box-shadow: none;
+    color: yellow;
+  }
+
+  #dropdown a{
+    color: aquamarine;
+  }
+  #dropdown a:hover{
+    color: olive;
+  }
+  #dropdown .dropdown-menu {
+    background:  rgb(52, 21, 21);
+  }
+
+
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+  }
+
+  .title {
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .content button {
+    padding: 35px 35px !;
+    margin-top: 150px;
+    font-size: 25px;
+    letter-spacing: 1px !important;
+    border: 5px solid #ffc107 !important;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #ffc107 50%) !important;
+    background-size: 200% !important;
+    background-position: left !important;
+    transition: background-position 0.5s !important;
+    font-weight: bold;
+  }
+
+  .content button a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+
+  .content button:hover {
+    background-position: right !important;
+    color: #000;
+  }
+
+  .slider {
+    color: #ffc107;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+  }
+
+  @keyframes slider {
+    0% {
+      margin-top: -400px
+    }
+
+    5% {
+      margin-top: -200px
+    }
+
+    30% {
+      margin-top: -200px
+    }
+
+    35% {
+      margin-top: 0px
+    }
+
+    65% {
+      margin-top: 0px
+    }
+
+    70% {
+      margin-top: 200px
+    }
+
+    100% {
+      margin-top: 200px
+    }
+  }
+
+@media (max-width:600px){
+  nav ul a{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  #navbartext ul a {
+    display: flex;
+    float: left;
+    color: yellow;
+  }
+  .title{
+    font-size: 20px;
+  }
+}
+
+  
